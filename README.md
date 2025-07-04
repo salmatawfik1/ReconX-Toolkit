@@ -3,6 +3,7 @@
 - Built with Python & Tkinter | Ideal for cybersecurity learners, bug bounty hunters, and OSINT tasks.
 
 🚀 Features:
+
 1- 🌐 Domain Recon Tool
  - WHOIS Information (Creation/Expiry Date, Registrar, Domain Age)
  - DNS Record Fetching (A, AAAA, MX, NS, TXT)
