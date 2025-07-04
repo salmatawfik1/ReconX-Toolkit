@@ -15,24 +15,22 @@
  - Unregistered Domain Detection
  - VirusTotal Integration (Malicious / Suspicious Verdicts)
  - Red Flag Summary for each URL
-
-- 🔐 VirusTotal Integration
 - To enable VirusTotal scanning:
   - Get a free API key from https://www.virustotal.com/gui/join-us
   - Enable "Check with VirusTotal" checkbox in the tool
   - Paste your API key
 
-- ✅ Example Use Cases:
+✅ Example Use Cases:
   - Investigate suspicious domains
   - Identify newly registered or spoofed phishing URLs
   - Analyze free/publicly hosted domains (.tk, .xyz)
   - Run lightweight OSINT checks
 
-- 📌 Known Limitations:
+📌 Known Limitations:
   - WHOIS data may be unavailable for IPs or some TLDs (e.g. .gov, .edu)
   - VirusTotal API is rate-limited (4 requests/min for free tier)
 
-- 🔮 Future Improvements:
+🔮 Future Improvements:
   - SSL/TLS Certificate Inspection
   - Subdomain Enumeration: Use public sources or APIs to discover subdomains
   - Passive DNS & Historical Records: Track changes in IPs over time (OSINT enhancement)
